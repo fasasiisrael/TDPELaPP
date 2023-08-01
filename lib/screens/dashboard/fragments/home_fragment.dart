@@ -116,7 +116,7 @@ class HomeFragmentState extends State<HomeFragment> with TickerProviderStateMixi
                       GestureDetector(
                         onTap: () {
                           // Open URL when the image is clicked
-                          String url = "https://tdpelmedia.com/ads";
+                          String url = "https://tdpelmedia.com/tmads";
                           launch(url);
                         },
                         child: Image.network(
