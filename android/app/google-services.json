@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "417042433146",
+    "project_id": "tdpelapp",
+    "storage_bucket": "tdpelapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417042433146:android:fe5b273e69c594cd62e7c3",
+        "android_client_info": {
+          "package_name": "com.kartalinc.tdpel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417042433146-58s3q3jahckon5uvd1h6ibsnv0vumlo3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kartalinc.tdpel",
+            "certificate_hash": "3f1febc7ec58dfce578e6829ddd2ca1d5ac607e5"
+          }
+        },
+        {
+          "client_id": "417042433146-bf2labf60tmgqpmluhd55rjkrlpfb0lk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHtW_BauBHZr0q8vawgwdPBlppVCcJQkc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417042433146-449ksuitb9ebia6727njt5fp3idftp0j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
