@@ -1,0 +1,15 @@
+workflows:
+  main:
+    name: Main workflow
+    environment:
+      vars:
+        FLUTTER_CHANNEL: stable
+    scripts:
+      - name: Install CocoaPods dependencies
+        script: |
+          flutter pub get
+          cd ios
+          pod repo update
+          pod install
+      - name: Build iOS app
+        script: flutter build ios --release
