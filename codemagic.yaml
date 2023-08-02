@@ -10,6 +10,8 @@ workflows:
           flutter pub get
           cd ios
           pod repo update
+          # Use a specific version for Firebase/Auth to avoid version conflicts
+          pod 'Firebase/Auth', '10.12.0'
           pod install
       - name: Build iOS app
         script: flutter build ios --release
