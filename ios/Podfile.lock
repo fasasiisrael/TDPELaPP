@@ -168,7 +168,7 @@ DEPENDENCIES:
   - audio_session (from `.symlinks/plugins/audio_session/ios`)
   - connectivity_plus (from `.symlinks/plugins/connectivity_plus/ios`)
   - firebase_auth (from `.symlinks/plugins/firebase_auth/ios`)
-  - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
+  - firebase_core (from `https://github.com/FirebaseExtended/flutterfire.git', :branch => 'master`)
   - Flutter (from `Flutter`)
   - flutter_custom_tabs (from `.symlinks/plugins/flutter_custom_tabs/ios`)
   - flutter_inappwebview (from `.symlinks/plugins/flutter_inappwebview/ios`)
@@ -225,7 +225,7 @@ EXTERNAL SOURCES:
   firebase_auth:
     :path: ".symlinks/plugins/firebase_auth/ios"
   firebase_core:
-    :path: ".symlinks/plugins/firebase_core/ios"
+    :path: "https://github.com/FirebaseExtended/flutterfire.git', :branch => 'master"
   Flutter:
     :path: Flutter
   flutter_custom_tabs:
