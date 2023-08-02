@@ -10,19 +10,19 @@ PODS:
   - connectivity_plus (0.0.1):
     - Flutter
     - ReachabilitySwift
-  - Firebase/Auth (10.12.0):
+  - Firebase/Auth (10.13.0):
     - Firebase/CoreOnly
-    - FirebaseAuth (~> 10.6.0)
-  - Firebase/CoreOnly (10.12.0):
-    - FirebaseCore (= 10.12.0)
+    - FirebaseAuth (~> 10.13.0)
+  - Firebase/CoreOnly (10.13.0):
+    - FirebaseCore (= 10.13.0)
   - firebase_auth (4.7.2):
-    - Firebase/Auth (= 10.12.0)
+    - Firebase/Auth (= 10.13.0)
     - firebase_core
     - Flutter
   - firebase_core (2.15.0):
-    - Firebase/CoreOnly (= 10.12.0)
+    - Firebase/CoreOnly (= 10.13.0)
     - Flutter
-  - FirebaseAuth (10.12.0):
+  - FirebaseAuth (10.13.0):
     - FirebaseCore (~> 10.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
     - GoogleUtilities/Environment (~> 7.8)
