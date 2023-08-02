@@ -13,14 +13,14 @@ PODS:
   - Firebase/Auth (10.6.0):
     - Firebase/CoreOnly
     - FirebaseAuth (~> 10.6.0)
-  - Firebase/CoreOnly (10.6.0):
+  - Firebase/CoreOnly (10.12.0):
     - FirebaseCore (= 10.6.0)
   - firebase_auth (4.3.0):
     - Firebase/Auth (= 10.6.0)
     - firebase_core
     - Flutter
-  - firebase_core (2.8.0):
-    - Firebase/CoreOnly (= 10.6.0)
+  - firebase_core (2.15.0):
+    - Firebase/CoreOnly (= 10.12.0)
     - Flutter
   - FirebaseAuth (10.6.0):
     - FirebaseCore (~> 10.0)
