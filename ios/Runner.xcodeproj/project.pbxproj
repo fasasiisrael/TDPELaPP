@@ -501,7 +501,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = S5P9PXJ4TV;
+				DEVELOPMENT_TEAM = 6SRTD9Y7V4;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -645,7 +645,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = S5P9PXJ4TV;
+				DEVELOPMENT_TEAM = 6SRTD9Y7V4;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -683,7 +683,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = S5P9PXJ4TV;
+				DEVELOPMENT_TEAM = 6SRTD9Y7V4;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -721,7 +721,7 @@
 				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S5P9PXJ4TV;
+				DEVELOPMENT_TEAM = 6SRTD9Y7V4;
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = "i386 arm64";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -757,7 +757,7 @@
 				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S5P9PXJ4TV;
+				DEVELOPMENT_TEAM = 6SRTD9Y7V4;
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = "i386 arm64";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -790,7 +790,7 @@
 				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S5P9PXJ4TV;
+				DEVELOPMENT_TEAM = 6SRTD9Y7V4;
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = "i386 arm64";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
