@@ -5,7 +5,7 @@ workflows:
    
       vars:
         FLUTTER_CHANNEL: stable
-         FLUTTER_ALLOW_PROVISIONING_UPDATES: 'true'
+        FLUTTER_ALLOW_PROVISIONING_UPDATES: 'true'
     scripts:
       - name: Install CocoaPods dependencies
         script: |
