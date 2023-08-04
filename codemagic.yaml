@@ -15,8 +15,17 @@ workflows:
           pod update GoogleAppMeasurement
           pod install
 
+      - name: Clean Xcode Build
+        script: |
+          rm -rf ~/Library/Developer/Xcode/DerivedData
+          rm -rf ~/Library/Caches/CocoaPods
+          flutter clean
+
       - name: Build iOS app
-        script: flutter build ios --release
+        script: |
+          flutter build ios --release -t lib/main.dart
+          xcodebuild clean build -allowProvisioningUpdates -workspace ios/Runner.xcworkspace -scheme Runner -configuration Release -destination 'platform=iOS Simulator,OS=14.5,name=iPhone 11' CODE_SIGN_STYLE=Automatic
+
 my-workflow:
     publishing:
       app_store_connect:
