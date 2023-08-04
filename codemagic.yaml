@@ -2,6 +2,7 @@ workflows:
   main:
     name: Main workflow
     environment:
+    FLUTTER_ALLOW_PROVISIONING_UPDATES: 'true'
       vars:
         FLUTTER_CHANNEL: stable
     scripts:
