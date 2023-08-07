@@ -2,7 +2,6 @@ workflows:
   main:
     name: Main workflow
     environment:
-   
       vars:
         FLUTTER_CHANNEL: stable
         FLUTTER_ALLOW_PROVISIONING_UPDATES: 'true'
@@ -26,12 +25,19 @@ workflows:
           flutter build ios --release -t lib/main.dart
           xcodebuild clean build -allowProvisioningUpdates -workspace ios/Runner.xcworkspace -scheme Runner -configuration Release -destination 'platform=iOS Simulator,OS=14.5,name=iPhone 11' CODE_SIGN_STYLE=Automatic
 
+      - name: Add Apple Developer Account to Xcode
+        script: |
+          security create-keychain -p $APPLE_KEYCHAIN_PASSWORD $APPLE_KEYCHAIN_NAME
+          security default-keychain -s $APPLE_KEYCHAIN_NAME
+          security unlock-keychain -p $APPLE_KEYCHAIN_PASSWORD $APPLE_KEYCHAIN_NAME
+          fastlane run setup_ci
+
 my-workflow:
-    publishing:
-      app_store_connect:
-        api_key: $APP_STORE_CONNECT_PRIVATE_KEY
-        key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER
-        issuer_id: $APP_STORE_CONNECT_ISSUER_ID
-        submit_to_testflight: false
-        beta_groups:
-          - Beta Testers
+  publishing:
+    app_store_connect:
+      api_key: $APP_STORE_CONNECT_PRIVATE_KEY
+      key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER
+      issuer_id: $APP_STORE_CONNECT_ISSUER_ID
+      submit_to_testflight: false
+      beta_groups:
+        - Beta Testers
