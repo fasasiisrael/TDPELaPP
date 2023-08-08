@@ -238,10 +238,11 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/fluttertoast/ios"
   geolocator_apple:
     :path: ".symlinks/plugins/geolocator_apple/ios"
-    google_mobile_ads: 
-    git: 
-      url: https://github.com/jslattery26/googleads-mobile-flutter
-      path: "packages/google_mobile_ads"
+     google_mobile_ads:
+    git:
+      url: https://github.com/jjliu15/googleads-mobile-flutter-1.git
+      ref: update_version
+      path: "packages/google_mobile_ads/"
   google_sign_in_ios:
     :path: ".symlinks/plugins/google_sign_in_ios/ios"
   image_picker_ios:
