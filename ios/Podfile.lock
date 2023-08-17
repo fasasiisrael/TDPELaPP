@@ -1,5 +1,4 @@
 PODS:
-PODS:
   - AppAuth (1.6.0):
     - AppAuth/Core (= 1.6.0)
     - AppAuth/ExternalUserAgent (= 1.6.0)
@@ -325,4 +324,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 9e58653ba72dbece5489c41c6ce1d6ec3042fbf2
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.12.0
