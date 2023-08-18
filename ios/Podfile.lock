@@ -11,15 +11,16 @@ PODS:
     - Flutter
     - ReachabilitySwift
   - Firebase/Auth (10.6.0):
-    
+    - Firebase/CoreOnly
     - FirebaseAuth (~> 10.6.0)
-  
+  - Firebase/CoreOnly (10.6.0):
+    - FirebaseCore (= 10.6.0)
   - firebase_auth (4.3.0):
     - Firebase/Auth (= 10.6.0)
     - firebase_core
     - Flutter
   - firebase_core (2.8.0):
-    
+    - Firebase/CoreOnly (= 10.6.0)
     - Flutter
   - FirebaseAuth (10.6.0):
     - FirebaseCore (~> 10.0)
@@ -162,7 +163,6 @@ PODS:
     - Flutter
   - webview_flutter_wkwebview (0.0.1):
     - Flutter
-
 
 DEPENDENCIES:
   - audio_session (from `.symlinks/plugins/audio_session/ios`)
@@ -324,4 +324,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 9e58653ba72dbece5489c41c6ce1d6ec3042fbf2
 
-COCOAPODS: 1.11.0.beta.2
+COCOAPODS: 1.11.0
