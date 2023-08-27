@@ -5,9 +5,11 @@ PODS:
   - AppAuth/Core (1.6.2)
   - AppAuth/ExternalUserAgent (1.6.2):
     - AppAuth/Core
-  - audio_session (0.1.16):
+  - audio_session (0.0.1):
     - Flutter
- 
+  - connectivity_plus (0.0.1):
+    - Flutter
+    - ReachabilitySwift
   - Firebase/Auth (10.14.0):
     - Firebase/CoreOnly
     - FirebaseAuth (~> 10.14.0)
