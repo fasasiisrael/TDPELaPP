@@ -1,0 +1,116 @@
+name: news_flutter
+description: A new Flutter application
+
+version: 6.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' 
+
+dependencies:
+
+  #BASE
+  cupertino_icons: ^1.0.5
+  nb_utils: ^5.0.8
+  google_fonts: ^5.1.0
+  flutter_vector_icons: ^2.0.0
+  intl: ^0.18.1
+
+  #UI
+  flutter_staggered_grid_view: ^0.6.2
+  dots_indicator: ^3.0.0
+  cached_network_image: ^3.2.3
+  image_picker: ^0.8.9
+  shimmer: ^3.0.0
+  country_picker: ^2.0.20
+  otp_text_field: ^1.1.3
+  firebase_remote_config: ^4.1.0
+
+
+
+  #FIREBASE
+  firebase_core: ^2.14.0
+  firebase_auth: ^4.6.3
+  firebase_analytics: ^10.4.3
+
+  #CONNECTIVITY
+  share_plus: ^6.3.4
+  http: ^0.13.5
+  flutter_custom_tabs: ^1.0.4
+
+  # PUSH NOTIFICATION
+  onesignal_flutter: ^3.5.1
+
+  # STATE MANAGEMENT
+  mobx: ^2.2.0
+  flutter_mobx: ^2.0.6+5
+
+  # ADS
+  google_mobile_ads: ^2.3.0
+
+  # AUTHENTICATION
+  google_sign_in: ^6.1.4
+  the_apple_sign_in: ^1.1.1
+
+  #PERMISSION
+  permission_handler: ^10.3.0
+
+  #OTHER
+  html: ^0.15.4
+  video_player: ^2.6.1
+  photo_view: ^0.14.0
+  flutter_html: ^3.0.0-beta.2
+  flutter_tts: ^3.7.0
+  speech_to_text: ^6.1.1
+  flutter_inappwebview: ^5.7.2+3
+  file_picker: ^5.2.8
+
+  # Color generator
+  palette_generator: ^0.3.3+2
+
+  # Location
+  geolocator: ^9.0.2
+
+  # Webview
+  webview_flutter: ^3.0.0
+  url_launcher: ^6.1.11
+  flutter_widget_from_html: ^0.8.5
+  syncfusion_flutter_pdfviewer: ^21.2.5
+
+  #video players
+  appinio_video_player: ^1.2.1
+  youtube_player_flutter: ^8.1.2
+
+  # Bottom nav bar
+  persistent_bottom_nav_bar: ^5.0.2
+
+  lottie: ^2.4.0
+
+  stream_transform: ^2.1.0
+
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.5
+  mobx_codegen: ^2.3.0
+  #flutter packages pub run build_runner build --delete-conflicting-outputs
+
+dependency_overrides:
+  chewie : ^1.5.0
+  intl: ^0.17.0-nullsafety.2
+  http: ^0.13.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/news/
+    - assets/news/flags/
+    - assets/news/icons/
+    - assets/news/images/
+    - assets/news/gif/

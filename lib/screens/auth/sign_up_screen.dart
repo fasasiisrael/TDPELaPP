@@ -10,7 +10,6 @@ import 'package:news_flutter/utils/colors.dart';
 import 'package:news_flutter/utils/common.dart';
 import 'package:news_flutter/utils/constant.dart';
 import 'package:news_flutter/utils/images.dart';
-
 import '../../main.dart';
 
 class SignUpScreen extends StatefulWidget {

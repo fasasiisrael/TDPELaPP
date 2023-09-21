@@ -76,3 +76,4 @@ class AppTheme {
     textSelectionTheme: TextSelectionThemeData(cursorColor: Colors.black),
   );
 }
+
