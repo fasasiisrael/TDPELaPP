@@ -1,2 +1,3 @@
-# news_blog_flutter 
+# news_flutter
 
+A new Flutter application.
